@@ -47,3 +47,4 @@ f.eachLine { l ->
     }
   }
 }
+System.err.println "Total diary entries identified: " + matchCount
