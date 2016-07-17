@@ -1,6 +1,7 @@
 /*
 
 Reads a 2-column file consisting of URN and text content, and outputs 82XF format.
+In this script column delimiter is hard-coded as tab.
 
 Usage: groovy psgTo82XF.groovy FILE
 
@@ -8,6 +9,8 @@ Usage: groovy psgTo82XF.groovy FILE
 
 
 File f = new File(args[0])
+
+
 
 // maps of URN to preceding or following URNs
 def prevToNext = [:]
