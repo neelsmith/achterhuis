@@ -18,10 +18,12 @@ The text group identifier `af` identifies "works by Anne Frank", and the work id
 
 The diary is organized in a two-tier citation scheme.  The top level of the scheme is a single day's diary entry.  As a convenience for chronological manipulation or analysis of entries, this value is an eight-character string giving year, month and day in the form "YYYYMMDD".
 
-  within that entry, there are numbered sections.  The "heading" section ks
+Within each entry, there are numbered sections.  Each "heading" section giving the entry's date is identified as `h1`.  Subsequent paragraphs are identified with strings that look like `p1`, `p2` or `p12`.
 
-Examples: the first URN in the work is `urn:cts:aflibre:aflibre.ah.hc:19420614.h1`       Zondag, 14 Juni 1942
-urn:cts:aflibre:aflibre.ah.hc:19420614.p1
+Examples: the first URN in the work is `urn:cts:aflibre:aflibre.ah.hc:19420614.h1`.  Its text content is
 
-urn:cts:aflibre:aflibre.ah.hc:19420614.h1     
-urn:cts:aflibre:aflibre.ah.hc:19420614.p1
+>Zondag, 14 Juni 1942
+
+The following passage has the URN `urn:cts:aflibre:aflibre.ah.hc:19420614.p1`.  Its text content is
+
+>Vrijdag 12 Juni was ik al om 6 uur wakker en dat is heel begrijpelijk, daar ik jarig was. Maar om 6 uur mocht ik toch nog niet opstaan, dus moest ik mijn nieuwsgierigheid bedwingen tot kwart voor zeven. Toen ging het niet langer, ik ging naar de eetkamer, waar ik door Moortje (de kat) met kopjes verwelkomd werd.
