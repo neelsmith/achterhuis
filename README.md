@@ -2,7 +2,7 @@
 
 Creating a citable version of Anne Frank's diary, *Het Achterhuis*.
 
-This repository includes a copy of the public-domain text downloaded from <http://affordance.typepad.com//files/anne-frank.txt>, using POSIX newlines to separate chunks of text.  This source text is parsed by a simple script written in groovy that assigns each non-empty line of the text a CTS URN.
+This repository includes a copy of the public-domain text downloaded from <http://affordance.typepad.com//files/anne-frank.txt>, with POSIX newlines separating chunks of text.  This source text is parsed by a simple script written in groovy that assigns each non-empty line of the text a CTS URN.
 
 ## Citation scheme
 
