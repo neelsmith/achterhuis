@@ -20,7 +20,7 @@ The diary is organized in a two-tier citation scheme.  The top level of the sche
 
 Within each entry, there are numbered sections.  Each "heading" section giving the entry's date is identified as `h1`.  Subsequent paragraphs are identified with strings that look like `p1`, `p2` or `p12`.
 
-Examples: the first URN in the work is `urn:cts:aflibre:aflibre.ah.hc:19420614.h1`.  Its text content is
+Examples: the first citable chunk of text in the work has the URN `urn:cts:aflibre:aflibre.ah.hc:19420614.h1`.  Its text content is
 
 >Zondag, 14 Juni 1942
 
