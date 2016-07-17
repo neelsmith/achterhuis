@@ -27,3 +27,13 @@ Examples: the first citable chunk of text in the work has the URN `urn:cts:aflib
 The following passage has the URN `urn:cts:aflibre:aflibre.ah.hc:19420614.p1`.  Its text content is
 
 >Vrijdag 12 Juni was ik al om 6 uur wakker en dat is heel begrijpelijk, daar ik jarig was. Maar om 6 uur mocht ik toch nog niet opstaan, dus moest ik mijn nieuwsgierigheid bedwingen tot kwart voor zeven. Toen ging het niet langer, ik ging naar de eetkamer, waar ik door Moortje (de kat) met kopjes verwelkomd werd.
+
+
+## Some pre-formatted files
+
+In the `srctext` directory:
+
+
+- `achterhuis.txt` is the text downloaded from <http://affordance.typepad.com//files/anne-frank.txt>
+- `achterhuis.tsv` is a two-column file delimited by tabs, giving the CTS URN and the text contents of each citable node, in document order.  (This is the output of `ahparser.groovy` using tab characters for delimiters.)
+- `achterhuis82XF.tsv` is the equivalent file in 82XF format.  Citable texts in 82XF format explicitly express the position of a node in the document sequence.  They can therefore be used in environments like relationa databases withouting having to maintain the ordering implicit in the sequence of lines in`achterhuis.tsv`.
